@@ -2,7 +2,7 @@ from turtle import title
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.config import Settings
-from tkinter import *
+import tkinter as tk
 
 # postgres
 from . import models
