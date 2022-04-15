@@ -2,8 +2,8 @@ from turtle import title
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.config import Settings
-import tkinter as tk
-
+import tkinter
+from turtle import title
 # postgres
 from . import models
 import socket
@@ -25,7 +25,8 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
+top = tkinter.Tk()
+top.mainloop()
 # my_posts = [{"title": "fastapi", "content": "permier chapitre", "id": 1}, {
 # "title": "fastapi mmm", "content": "permier chapitre", "id": 2}]
 
