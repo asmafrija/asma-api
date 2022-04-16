@@ -48,5 +48,4 @@ typing_extensions==4.1.1
 ujson==4.3.0
 urllib3==1.26.9
 uvicorn==0.15.0
-watchgod==0.8.1git 
 websockets==10.2
